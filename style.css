@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10%;
+    background-image: url('new_bg.jpg');
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(179, 157, 157, 0.5); /* Transparent white */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    margin: auto;
+}
+
+nav a {
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 225%;
+    font-family: fantasy;
+    padding: 10px 16px; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+
+nav a:hover {
+    background-color: purple;
+    color: pink;
+    transform: scale(1.1); 
+}
+/* 
+section {
+    padding: 5%;
+} */
+#portfolio-title {
+    transition: opacity 1s;
+}
