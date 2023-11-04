@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center; font-size: 750%; text-shadow: 4px 3px 0 white; color: violet;">My Portfolio</h1>
+    </div>    
+    <!-- Navbar -->
+    <nav id="navbar">
+        <a href="#landing">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="landing" style="padding: 8%;">
+        <h1 style="font-size: 450%; color: white; font-family: Angsana New;">สวัสดีครับ</h1>
+        <p style="color: white; font-size: 200%; text-shadow: 2px 1px 0 black; font-family: Angsana New;">ถ้าให้อธิบายสั้น ๆ ถึงความเป็นตัวเองของผม ผมก็คงเป็นคนที่ชอบปัญญาประดิษฐ์หรือ AI เอามาก ๆ เลยแหล่ะครับ โดยเฉพาะตอนออกแบบโครงสร้าง แต่จริง ๆ ก็มีจุดอ่อนร้ายแรงของผมอยู่คือ บางครั้งผมไม่รู้ว่าต้องนำเสนอสิ่งเหล่านั้นออกมายังไง แต่ก็นั้นแหล่ะครับ ผมเชื่อว่าการใช้เวลาระหว่างการเดินทางไปเรื่อย ๆ จะทำให้ผมได้เรียบนรู้ ได้ประสบการณ์ จนสามารถทำมันออกมาได้ดีที่สุดครับ</p>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" style="padding: 0%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px; align-items: center;">
+        <div>
+            <h2 style="text-align: center; font-size: 350%; color: white; font-family: Arial;">About Me</h2>
+            <p style="text-shadow: 2px 1px 0 black; text-align: center; font-size: 175%; color: white; font-family: Kanit;">ชื่อ: สันติภาพ ทองจันทร์ ชื่อเล่น: ภูผา</p>
+            <p style="text-shadow: 2px 1px 0 black; text-align: center; font-size: 175%; color: white; font-family: Kanit;">เกิดวันที่: 22 เมษายน 2548 อายุ: 18 ปี </p>
+            <p style="text-shadow: 2px 1px 0 black; text-align: center; font-size: 175%; color: white; font-family: Kanit;">กรุ๊ปเลือด: O กีฬาที่ชอบ : แบดมินตัน วิ่ง </p>
+            <p style="text-shadow: 2px 1px 0 black; text-align: center; font-size: 175%; color: white; font-family: Kanit;">งานอดิเรก: เขียนโค้ด AI Youtuber </p>
+        </div>
+        <img src="me.jpg" alt="Me" style="display: block; max-width: 75%; margin: auto; box-shadow: 5px 5px 10px rg ba(0, 0, 0, 0.5);" />
+    </section>
+
+    <!-- Education -->
+    <section id="education" style="padding: 8%;">
+        <div style="display: grid; grid-template-rows: auto auto auto auto auto; grid-template-columns: 1fr 1fr; grid-gap: 20px;">
+            <div style="grid-row: 1; grid-column: 1 / span 2; text-align: center; color: white; font-size: 300%; font-family: Arial;">
+                <!-- First Row: Centered Text (spanning both columns) -->
+                <h2>Education</h2>
+            </div>
+            <div style="grid-row: 2; grid-column: 1; text-align: center;">
+                <!-- Second Row: Left Column (Image) -->
+                <img src="ARB.png" alt="ARB" style="max-width: 50%;" />
+            </div>
+            <div style="grid-row: 2; grid-column: 2;">
+                <!-- Second Row: Right Column (Text) -->
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 225%;">Anuban Rattanaburi School</p>                
+                <p style="color: white; font-size: 225%; font-family: Angsana New;">โรงเรียนอนุบาลรัตนบุรี</p>
+            </div>
+            <div style="grid-row: 3; grid-column: 1; text-align: center;">
+                <!-- Third Row: Left Column (Image) -->
+                <img src="RB.png" alt="RB" style="max-width: 50%;" />
+            </div>
+            <div style="grid-row: 3; grid-column: 2;">
+                <!-- Third Row: Right Column (Text) -->
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 225%;">Rattanaburi School</p>
+                <p style="color: white; font-size: 225%; font-family: Angsana New;">โรงเรียนรัตนบุรี</p>
+            </div>
+            <div style="grid-row: 4; grid-column: 1; text-align: center;">
+                <!-- Fourth Row: Left Column (Image) -->
+                <img src="PCSHSBR.png" alt="PCSHSBR" style="max-width: 50%;" />
+            </div>
+            <div style="grid-row: 4; grid-column: 2;">
+                <!-- Fourth Row: Right Column (Text) -->
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 225%;">Princess Chulabhorn Science High School Buriram</p>
+                <p style="color: white; font-size: 225%; font-family: Angsana New;">โรงเรียนวิทยาศาสตร์จุฬาภรณราชวิทยาลัย บุรีรัมย์</p>
+            </div>
+            <div style="grid-row: 5; grid-column: 1; text-align: center;">
+                <!-- Fifth Row: Left Column (Image) -->
+                <img src="KMUTT.png" alt="KMUTT" style="max-width: 50%;" />
+            </div>
+            <div style="grid-row: 5; grid-column: 2;">
+                <!-- Fifth Row: Right Column (Text) -->
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 225%;">King Mongkut's University of Technology Thonburi</p>
+                <p style="color: white; font-size: 225%; font-family: Angsana New;">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills -->
+    <section id="skills" style="padding: 8%;">
+        <div style="display: grid; grid-template-rows: auto auto; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px; text-align: center;">
+            <div style="grid-row: 1; grid-column: 1 / span 3; text-align: center; color: white; font-size: 300%; font-family: Arial;">
+                <!-- First Row: Centered Text (spanning all three columns) -->
+                <h2>Skills</h2>
+            </div>
+            <div style="grid-row: 2; grid-column: 1;">
+                <!-- Second Row: First Column (Image) -->
+                <img src="5.png" alt="5" style="max-width: 100%;" />
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 200%;">Machine Learning</p>
+            </div>
+            <div style="grid-row: 2; grid-column: 2;">
+                <!-- Second Row: Second Column (Image) -->
+                <img src="6.png" alt="6" style="max-width: 100%;" />
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 200%;">Python Programming</p>
+            </div>
+            <div style="grid-row: 2; grid-column: 3;">
+                <!-- Second Row: Third Column (Image) -->
+                <img src="7.png" alt="7" style="max-width: 100%;" />
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 200%;">CiRA Core</p>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Contact -->
+    <section id="contact">
+        <div style="display: grid; grid-template-rows: auto auto; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px; text-align: center;">
+            <div style="grid-row: 1; grid-column: 1 / span 3; text-align: center; color: white; font-size: 300%; font-family: Arial;">
+                <!-- First Row: Centered Text (spanning all three columns) -->
+                <h2>Contact</h2>
+            </div>
+            <div style="grid-row: 2; grid-column: 1;">
+                <!-- Second Row: First Column (Image) -->
+                <p style="text-shadow: 2px 1px 0 white; color: rgb(57, 161, 202); font-size: 300%; text-align: center;">Phone</p>
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 180%; text-align: center;">0902471512</p>
+            </div>
+            <div style="grid-row: 2; grid-column: 2;">  
+                <!-- Second Row: Second Column (Image) -->
+                <p style="text-shadow: 2px 1px 0 white; color: rgb(57, 161, 202); font-size: 300%; text-align: center;">Email</p>
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 180%; text-align: center;">santipabppch12345@gmail.com</p>
+            </div>
+            <div style="grid-row: 2; grid-column: 3;">
+                <!-- Second Row: Third Column (Image) -->
+                <p style="text-shadow: 2px 1px 0 white; color: rgb(57, 161, 202); font-size: 300%; text-align: center;">Kaggle</p>
+                <p style="text-shadow: 2px 1px 0 black; color: white; font-size: 180%; text-align: center;">.Beater_Kung</p>
+            </div>
+        </div>
+    </section>
+    </section>
+</body>
+</html>
